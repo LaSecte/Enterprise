@@ -1,0 +1,11 @@
+language: php
+
+script:
+        - echo "hello world"
+
+notifications:
+        slack:
+          rooms:
+            - asisqy: xoxp-819361314902-821309167892-823331996292-700987cc523751c9e42255c0ac0e1a70#git-test
+          on_success: change
+          on_failure: always
