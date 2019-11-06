@@ -1,2 +1,6 @@
 language : php
-echo "hello world"
+
+script :
+        - echo "hello world"
+
+
